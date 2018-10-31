@@ -1,0 +1,10 @@
+/.idea
+/.vagrant
+ubuntu-xenial-16.04-cloudimg-console.log
+vendor/*
+!/vendor/furniture/
+Vagrantfile
+provision.sh
+composer.lock
+set.txt
+furniture.sql

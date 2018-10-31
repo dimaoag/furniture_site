@@ -1,0 +1,22 @@
+<?php
+return [
+    'admin_email_from' => 'salon.meri.meri@gmail.com',
+    'admin_email_to' => 'salon.meri.meri@gmail.com',
+    'shop_name' => 'Meri&Meri',
+    'turbo_sms_login' => 'hdfresh',
+    'turbo_sms_password' => '232101',
+    'pagination' => 6,
+    'smtp_host' => 'smtp.ukr.net',
+    'smtp_port' => 2525,
+    'smtp_protocol' => 'SSL',
+    'smtp_login' => 'testingoda@ukr.net',
+    'smtp_password' => '1926odat',
+    'banner_width' => 1120,
+    'banner_height' => 600,
+    'preview_width' => 470,
+    'preview_height' => 390,
+    'gallery_with' => 337,
+    'gallery_height' => 337,
+    'course_with' => 442,
+    'course_height' => 360,
+];
