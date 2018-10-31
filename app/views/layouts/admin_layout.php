@@ -369,7 +369,6 @@
 <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 
-<script src="/js/ajaxupload.js"></script>
 
 <script>
     $.widget.bridge('uibutton', $.ui.button);
@@ -383,6 +382,8 @@
 <script src="bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
 
 <script src="/js/validator.min.js"></script>
+
+<script src="/js/ajaxupload.js"></script>
 <!-- jvectormap -->
 <!--<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>-->
 <!--<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>-->

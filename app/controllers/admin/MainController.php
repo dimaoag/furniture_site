@@ -8,7 +8,8 @@ class MainController extends AdminController {
         $countArticles = \R::count('article');
         $countJobs = \R::count('job');
 
+
         $this->setMeta('Админка');
-        $this->setData(compact('countArticles', 'countJobs', 'countCourses', 'countOrders'));
+        $this->setData(compact('countArticles', 'countJobs'));
     }
 }

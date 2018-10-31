@@ -17,9 +17,8 @@
             <div class="small-box bg-aqua">
                 <div class="inner">
                     <h3>
-                        0
+                        <?=$countArticles?>
                     </h3>
-
                     <p>Статьи</p>
                 </div>
                 <div class="icon">

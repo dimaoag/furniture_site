@@ -16648,3 +16648,45 @@
 [2018-10-31 09:09:53] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
         
 ====================='=
+[2018-10-31 09:20:32] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-10-31 09:20:33] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-10-31 09:20:41] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-10-31 09:22:51] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-10-31 09:35:32] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'furniture.article' doesn't exist | File: /var/www/furniture_site/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 188 
+        
+====================='=
+[2018-10-31 09:38:12] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'furniture.category' doesn't exist | File: /var/www/furniture_site/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 188 
+        
+====================='=
+[2018-10-31 09:41:52] Text error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"  -- keep-cache' at line 1 | File: /var/www/furniture_site/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 188 
+        
+====================='=
+[2018-10-31 09:42:39] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'furniture.category' doesn't exist | File: /var/www/furniture_site/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 188 
+        
+====================='=
+[2018-10-31 09:49:04] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'furniture.category' doesn't exist | File: /var/www/furniture_site/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 188 
+        
+====================='=
+[2018-10-31 10:21:21] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'furniture.category' doesn't exist | File: /var/www/furniture_site/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 188 
+        
+====================='=
+[2018-10-31 10:50:45] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-10-31 10:50:45] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-10-31 10:54:20] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-10-31 10:54:20] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
