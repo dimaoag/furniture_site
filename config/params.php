@@ -15,8 +15,8 @@ return [
     'article_height' => 1080,
     'preview_width' => 470,
     'preview_height' => 390,
-    'gallery_with' => 337,
-    'gallery_height' => 337,
+    'gallery_with' => 1920,
+    'gallery_height' => 1080,
     'course_with' => 442,
     'course_height' => 360,
 ];

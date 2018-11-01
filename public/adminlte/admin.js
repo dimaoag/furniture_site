@@ -19,7 +19,6 @@ $('.sidebar-menu a').each(function () {
 
 
 // include CKeditor
-// CKEDITOR.replace('editor1');
 $('#editor1').ckeditor();
 
 
@@ -94,6 +93,123 @@ $('.del-img-article').on('click', function () {
     });
 
 });
+
+
+//upload images gallery
+if ($('div').is('#gallery')){
+    var buttonGallery = $('#gallery'),
+        file;
+}
+
+if (buttonGallery){
+    new AjaxUpload(buttonGallery, {
+        action: adminPath + buttonGallery.data('url') + "?upload=1",
+        data: {
+            name: buttonGallery.data('name'),
+            id: buttonGallery.data('id')
+        },
+        name: buttonGallery.data('name'),
+        onSubmit: function (file, ext) {
+            if (!(ext && /^(jpg|png|jpeg|gif)$/i.test(ext))) {
+                alert('Ошибка! Разрешены только картинки');
+                return false;
+            }
+            buttonGallery.closest('.file-upload').find('.overlay').css({'display': 'block'});
+
+        },
+        onComplete: function (file, response) {
+            setTimeout(function () {
+                buttonGallery.closest('.file-upload').find('.overlay').css({'display': 'none'});
+
+                response = JSON.parse(response);
+                $('.gallery').append('<img src="/images/' + response.file + '" style="max-height: 100px; margin: 10px;">');
+            }, 1000);
+        }
+    });
+}
+
+
+//delete images from gallery
+$('.del-gallery').on('click', function () {
+    var res = confirm('Вы действительно хотите удалить фото?');
+    if (!res) return false;
+
+    var this_img = $(this),
+        id = this_img.data('id'),
+        src = this_img.data('src'),
+        type = this_img.data('type');
+
+    $.ajax({
+        url: adminPath + '/gallery/delete-image',
+        data: {id: id, src: src, type: type},
+        type: 'post',
+        beforeSend: function () {
+            this_img.closest('.file-upload').find('.overlay').css({'display': 'block'});
+        },
+        success: function (res) {
+            setTimeout(function () {
+                this_img.closest('.file-upload').find('.overlay').css({'display': 'none'});
+                if (res == 1){
+                    this_img.fadeOut();
+                }
+            }, 1000);
+        },
+        error: function () {
+            setTimeout(function () {
+                this_img.closest('.file-upload').find('.overlay').css({'display': 'none'});
+                alert('Error!')
+            }, 1000);
+        },
+    });
+
+});
+
+
+
+
+
+
+// if ($('div').is('#upload_img')){
+//     var buttonUpload = $('#upload_img');
+// }
+//
+// if (buttonUpload) {
+
+
+
+    // var images = [];
+    // var i = 0;
+    // $("#file").dropzone({
+    //     url: adminPath + "/job/upload",
+    //     init: function () {
+    //         $(this.element).html(this.options.dictDefaultMessage);
+    //     },
+    //     dictDefaultMessage: '<div class="dz-message">Нажмите здесь или перетащите сюда файлы для загрузки</div>',
+    //     acceptedFiles: '.jpg, .jpeg, .png, .gif',
+    //     createImageThumbnails: true,
+    //     thumbnailWidth: 200,
+    //     thumbnailHeight: 200,
+    //     success: function (file, response) {
+    //         console.log(file);
+    //         // console.log(response);
+    //         var url = file.dataURL,
+    //             res = JSON.parse(response);
+    //         console.log(res.answer);
+    //         images[i] = url;
+    //         $('.images-save').html('<input type="hidden" name="image_'+ i +'" value="'+ url +'">');
+    //         i++;
+    //     },
+    //
+    // });
+    //
+    // $('.res').click(function () {
+    //     console.log(images);
+    // });
+
+
+// }
+
+
 
 
 //reset filter in add new product

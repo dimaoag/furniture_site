@@ -18,6 +18,7 @@
                 <div class="inner">
                     <h3>
                         <?=$countArticles?>
+
                     </h3>
                     <p>Статьи</p>
                 </div>
@@ -33,7 +34,7 @@
             <div class="small-box bg-green">
                 <div class="inner">
                     <h3>
-                        0
+                        <?=$countJobs?>
                     </h3>
 
                     <p>Выпольненые работы</p>

@@ -28,7 +28,7 @@
                                 <tr>
                                     <td><?=$job->name;?></td>
                                     <td>
-                                        <a href="<?=ADMIN?>/job/gallery?id=<?=$job->id;?>">
+                                        <a href="<?=ADMIN?>/gallery?id=<?=$job->id;?>">
                                             Галерея
                                         </a>
                                     </td>

@@ -17029,3 +17029,60 @@
 [2018-11-01 10:51:48] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
         
 ====================='=
+[2018-11-01 12:21:04] Text error: syntax error, unexpected '}' | File: /var/www/furniture_site/app/controllers/admin/JobController.php | Line: 73 
+        
+====================='=
+[2018-11-01 12:24:14] Text error: View /var/www/furniture_site/app/views/admin/Job/gallery.php not found | File: /var/www/furniture_site/vendor/furniture/core/base/View.php | Line: 60 
+        
+====================='=
+[2018-11-01 12:27:52] Text error: View /var/www/furniture_site/app/views/admin/Job/gallery.php not found | File: /var/www/furniture_site/vendor/furniture/core/base/View.php | Line: 60 
+        
+====================='=
+[2018-11-01 12:53:06] Text error: Controller app\controllers\ImagesController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 12:53:54] Text error: Controller app\controllers\ImagesController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 12:54:34] Text error: Controller app\controllers\ImagesController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 12:54:37] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 12:54:38] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 12:54:40] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 12:54:49] Text error: Controller app\controllers\ImagesController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 12:55:18] Text error: Controller app\controllers\ImagesController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 13:16:54] Text error: Controller app\controllers\FileController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 13:46:03] Text error: Controller app\controllers\admin\LteController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 13:46:38] Text error: Controller app\controllers\admin\LteController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 13:50:36] Text error: Controller app\controllers\admin\LteController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 13:50:36] Text error: Controller app\controllers\admin\LteController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 13:51:32] Text error: Controller app\controllers\admin\LteController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 13:57:09] Text error: Controller app\controllers\admin\LteController not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 54 
+        
+====================='=
+[2018-11-01 14:42:39] Text error: View /var/www/furniture_site/app/views/admin/Job/gallery.php not found | File: /var/www/furniture_site/vendor/furniture/core/base/View.php | Line: 60 
+        
+====================='=
