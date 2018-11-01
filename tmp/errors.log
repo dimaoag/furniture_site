@@ -17002,3 +17002,30 @@
 [2018-11-01 09:47:05] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
         
 ====================='=
+[2018-11-01 10:34:28] Text error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'furniture.jog' doesn't exist | File: /var/www/furniture_site/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 188 
+        
+====================='=
+[2018-11-01 10:50:44] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 10:50:45] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 10:50:52] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 10:50:53] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 10:51:01] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 10:51:02] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 10:51:48] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
+[2018-11-01 10:51:48] Text error: Page not found | File: /var/www/furniture_site/vendor/furniture/core/Router.php | Line: 57 
+        
+====================='=
