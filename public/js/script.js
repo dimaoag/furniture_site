@@ -30,12 +30,12 @@ $('.sec-2-carousel-item a').magnificPopup({
 
 // ----------tab 1--------------//
 
-$('.sec-2-carousel-tab-1').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+$('.sec-2-carousel-tab-6').on('initialized.owl.carousel changed.owl.carousel', function(e) {
     if (!e.namespace)  {
         return;
     }
-    var carousel1 = e.relatedTarget;
-    $('.slide-count-wrap-tab-1').html(carousel1.relative(carousel1.current()) + 1 + '/' + '<span>'+ carousel1.items().length) + '</span>';
+    var carousel6 = e.relatedTarget;
+    $('.slide-count-wrap-tab-6').html(carousel6.relative(carousel6.current()) + 1 + '/' + '<span>'+ carousel6.items().length) + '</span>';
 }).owlCarousel({
     center: true,
     items:1,
@@ -43,24 +43,24 @@ $('.sec-2-carousel-tab-1').on('initialized.owl.carousel changed.owl.carousel', f
     loop:true,
 });
 
-owl1 = $('.sec-2-carousel-tab-1').owlCarousel();
-$(".sec-2-carousel-arrow-right-tab-1").click(function () {
-    owl1.trigger('next.owl.carousel');
+owl6 = $('.sec-2-carousel-tab-6').owlCarousel();
+$(".sec-2-carousel-arrow-right-tab-6").click(function () {
+    owl6.trigger('next.owl.carousel');
 });
-$(".sec-2-carousel-arrow-left-tab-1").click(function () {
-    owl1.trigger('prev.owl.carousel');
+$(".sec-2-carousel-arrow-left-tab-6").click(function () {
+    owl6.trigger('prev.owl.carousel');
 });
 
 
 
 // ----------tab 2--------------//
 
-$('.sec-2-carousel-tab-2').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+$('.sec-2-carousel-tab-7').on('initialized.owl.carousel changed.owl.carousel', function(e) {
     if (!e.namespace)  {
         return;
     }
-    var carousel2 = e.relatedTarget;
-    $('.slide-count-wrap-tab-2').html(carousel2.relative(carousel2.current()) + 1 + '/' + '<span>'+ carousel2.items().length) + '</span>';
+    var carousel7 = e.relatedTarget;
+    $('.slide-count-wrap-tab-7').html(carousel7.relative(carousel7.current()) + 1 + '/' + '<span>'+ carousel7.items().length) + '</span>';
 }).owlCarousel({
     center: true,
     items:1,
@@ -68,12 +68,12 @@ $('.sec-2-carousel-tab-2').on('initialized.owl.carousel changed.owl.carousel', f
     loop:true,
 });
 
-owl2 = $('.sec-2-carousel-tab-2').owlCarousel();
-$(".sec-2-carousel-arrow-right-tab-2").click(function () {
-    owl2.trigger('next.owl.carousel');
+owl7 = $('.sec-2-carousel-tab-7').owlCarousel();
+$(".sec-2-carousel-arrow-right-tab-7").click(function () {
+    owl7.trigger('next.owl.carousel');
 });
-$(".sec-2-carousel-arrow-left-tab-2").click(function () {
-    owl2.trigger('prev.owl.carousel');
+$(".sec-2-carousel-arrow-left-tab-7").click(function () {
+    owl7.trigger('prev.owl.carousel');
 });
 
 // ----------tab 3--------------//

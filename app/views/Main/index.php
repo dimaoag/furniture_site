@@ -84,476 +84,67 @@
             </div>
         </div>
     </section>
-    <section class="section-2">
+    <?php if (!empty($jobs)): ?>
+        <section class="section-2">
         <div class="container">
-            <!--<div class="row sec-2-container">-->
-            <!--<div class="col-12">-->
-            <!--<div class="sec-2-right-block">-->
-            <!--<p class="sec-title py-5">Выполненые работы</p>-->
-            <!--<ul class="nav nav-pills d-flex justify-content-between py-4" id="pills-tab" role="tablist">-->
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link active" id="pills-living-tab" data-toggle="pill" href="#pills-living" role="tab"-->
-            <!--aria-controls="pills-living" aria-selected="true">Для гостинной</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link" id="pills-bad-tab" data-toggle="pill" href="#pills-bad" role="tab"-->
-            <!--aria-controls="pills-bad" aria-selected="false">Для спальной</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link" id="pills-baby-tab" data-toggle="pill" href="#pills-baby" role="tab"-->
-            <!--aria-controls="pills-baby" aria-selected="false">Детская мебель</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link" id="pills-kitchen-tab" data-toggle="pill" href="#pills-kitchen" role="tab"-->
-            <!--aria-controls="pills-kitchen" aria-selected="false">Для кухни</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link" id="pills-horeca-tab" data-toggle="pill" href="#pills-horeca" role="tab"-->
-            <!--aria-controls="pills-horeca" aria-selected="false">HoReCa</a>-->
-            <!--</li>-->
-            <!--</ul>-->
-            <!--</div>-->
-
-            <!--<div class="tab-content" id="pills-tabContent">-->
-            <!--<div class="tab-pane fade show active" id="pills-living" role="tabpanel" aria-labelledby="pills-living-tab">-->
-
-            <!--<div id="my_nanogallery2"></div>-->
-
-            <!--</div>-->
-            <!--<div class="tab-pane fade" id="pills-bad" role="tabpanel" aria-labelledby="pills-bad-tab">-->
-
-            <!--<div class="sec-2-carousel-wrap">-->
-            <!--<div class="sec-2-carousel-container">-->
-            <!--<div class="owl-carousel sec-2-carousel sec-2-carousel-tab-2">-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-2">-->
-            <!--<img src="images/arrow_left.png" alt="image">-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-2">-->
-            <!--<img src="images/arrow_right.png" alt="image">-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-counter d-flex justify-content-center">-->
-            <!--<div class="slide-count-wrap slide-count-wrap-tab-2 py-2"></div>-->
-            <!--</div>-->
-            <!--</div>-->
-
-            <!--</div>-->
-            <!--<div class="tab-pane fade" id="pills-baby" role="tabpanel" aria-labelledby="pills-baby-tab">-->
-
-            <!--<div class="sec-2-carousel-wrap">-->
-            <!--<div class="sec-2-carousel-container">-->
-            <!--<div class="owl-carousel sec-2-carousel sec-2-carousel-tab-3">-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-3">-->
-            <!--<img src="images/arrow_left.png" alt="image">-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-3">-->
-            <!--<img src="images/arrow_right.png" alt="image">-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-counter d-flex justify-content-center">-->
-            <!--<div class="slide-count-wrap slide-count-wrap-tab-3 py-2"></div>-->
-            <!--</div>-->
-            <!--</div>-->
-
-            <!--</div>-->
-            <!--<div class="tab-pane fade" id="pills-kitchen" role="tabpanel" aria-labelledby="pills-kitchen-tab">-->
-
-            <!--<div class="sec-2-carousel-wrap">-->
-            <!--<div class="sec-2-carousel-container">-->
-            <!--<div class="owl-carousel sec-2-carousel sec-2-carousel-tab-4">-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-4">-->
-            <!--<img src="images/arrow_left.png" alt="image">-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-4">-->
-            <!--<img src="images/arrow_right.png" alt="image">-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-counter d-flex justify-content-center">-->
-            <!--<div class="slide-count-wrap slide-count-wrap-tab-4 py-2"></div>-->
-            <!--</div>-->
-            <!--</div>-->
-
-            <!--</div>-->
-            <!--<div class="tab-pane fade" id="pills-horeca" role="tabpanel" aria-labelledby="pills-horeca-tab">-->
-
-            <!--<div class="sec-2-carousel-wrap">-->
-            <!--<div class="sec-2-carousel-container">-->
-            <!--<div class="owl-carousel sec-2-carousel sec-2-carousel-tab-5">-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-item">-->
-            <!--<a href="images/sec1_bg-min.png">-->
-            <!--<img src="images/sec1_bg-min.png" alt="image">-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-5">-->
-            <!--<img src="images/arrow_left.png" alt="image">-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-5">-->
-            <!--<img src="images/arrow_right.png" alt="image">-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--<div class="sec-2-carousel-counter d-flex justify-content-center">-->
-            <!--<div class="slide-count-wrap slide-count-wrap-tab-5 py-2"></div>-->
-            <!--</div>-->
-            <!--</div>-->
-
-            <!--</div>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--</div>-->
 
             <div class="row sec-2-container">
                 <div class="col-lg-7 sec-2-left-block">
                     <div class="bg-block"></div>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-living" role="tabpanel" aria-labelledby="pills-living-tab">
+                        <?php $i = 0;?>
+                        <?php foreach ($jobs as $job): ?>
 
-                            <div class="sec-2-carousel-wrap">
-                                <div class="sec-2-carousel-container">
-                                    <div class="owl-carousel sec-2-carousel sec-2-carousel-tab-1">
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/каф 1.jpg">
-                                                <img src="images/каф 1.jpg" alt="image">
-                                            </a>
+                            <div class="tab-pane fade show <?= ($i == 0) ? ' active' : ''?>" id="pills-<?=$job->id?>" role="tabpanel" aria-labelledby="pills-tab-<?=$job->id?>">
+
+                                <div class="sec-2-carousel-wrap">
+                                    <div class="sec-2-carousel-container">
+
+                                        <div class="owl-carousel sec-2-carousel sec-2-carousel-tab-<?=$job->id?>">
+                                            <?php foreach ($galleries as $gallery): ?>
+                                                <?php if ($job->id == $gallery->job_id): ?>
+                                                    <div class="sec-2-carousel-item">
+                                                        <a href="images/<?=$gallery->img?>">
+                                                            <img src="images/<?=$gallery->img?>" alt="<?=$gallery->img?>">
+                                                        </a>
+                                                    </div>
+                                                <?php endif; ?>
+                                            <?php endforeach;?>
+
                                         </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/каф 2.jpg">
-                                                <img src="images/каф 2.jpg" alt="image">
-                                            </a>
+
+                                        <div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-<?=$job->id?> waves-effect">
+                                            <img src="images/arrow_left.png" alt="image">
                                         </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/каф 3.jpg">
-                                                <img src="images/каф 3.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/каф 4.jpg">
-                                                <img src="images/каф 4.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/каф 5.jpg">
-                                                <img src="images/каф 5.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/каф 6.jpg">
-                                                <img src="images/каф 6.jpg" alt="image">
-                                            </a>
+                                        <div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-<?=$job->id?> waves-effect">
+                                            <img src="images/arrow_right.png" alt="image">
                                         </div>
                                     </div>
-                                    <div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-1 waves-effect">
-                                        <img src="images/arrow_left.png" alt="image">
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-1 waves-effect">
-                                        <img src="images/arrow_right.png" alt="image">
-                                    </div>
+
+                                    <div class="slide-count-wrap slide-count-wrap-tab-<?=$job->id?> py-2"></div>
+
                                 </div>
-
-                                <div class="slide-count-wrap slide-count-wrap-tab-1 py-2"></div>
 
                             </div>
 
-                        </div>
-                        <div class="tab-pane fade" id="pills-bad" role="tabpanel" aria-labelledby="pills-bad-tab">
+                            <?php $i++;?>
+                        <?php endforeach;?>
 
-                            <div class="sec-2-carousel-wrap">
-                                <div class="sec-2-carousel-container">
-                                    <div class="owl-carousel sec-2-carousel sec-2-carousel-tab-2">
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/кр 1.jpg">
-                                                <img src="images/кр 1.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/кр 2.jpg">
-                                                <img src="images/кр 2.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/кр 3.jpg">
-                                                <img src="images/кр 3.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/кр 4.jpg">
-                                                <img src="images/кр 4.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/кр 5.jpg">
-                                                <img src="images/кр 5.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/кр 6.jpg">
-                                                <img src="images/кр 6.jpg" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-2">
-                                        <img src="images/arrow_left.png" alt="image">
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-2">
-                                        <img src="images/arrow_right.png" alt="image">
-                                    </div>
-                                </div>
 
-                                <div class="slide-count-wrap slide-count-wrap-tab-2 py-2"></div>
-
-                            </div>
-
-                        </div>
-                        <div class="tab-pane fade" id="pills-baby" role="tabpanel" aria-labelledby="pills-baby-tab">
-
-                            <div class="sec-2-carousel-wrap">
-                                <div class="sec-2-carousel-container">
-                                    <div class="owl-carousel sec-2-carousel sec-2-carousel-tab-3">
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-3">
-                                        <img src="images/arrow_left.png" alt="image">
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-3">
-                                        <img src="images/arrow_right.png" alt="image">
-                                    </div>
-                                </div>
-
-                                <div class="slide-count-wrap slide-count-wrap-tab-3 py-2"></div>
-
-                            </div>
-
-                        </div>
-                        <div class="tab-pane fade" id="pills-kitchen" role="tabpanel" aria-labelledby="pills-kitchen-tab">
-
-                            <div class="sec-2-carousel-wrap">
-                                <div class="sec-2-carousel-container">
-                                    <div class="owl-carousel sec-2-carousel sec-2-carousel-tab-4">
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-4">
-                                        <img src="images/arrow_left.png" alt="image">
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-4">
-                                        <img src="images/arrow_right.png" alt="image">
-                                    </div>
-                                </div>
-
-                                <div class="slide-count-wrap slide-count-wrap-tab-4 py-2"></div>
-
-                            </div>
-
-                        </div>
-                        <div class="tab-pane fade" id="pills-horeca" role="tabpanel" aria-labelledby="pills-horeca-tab">
-
-                            <div class="sec-2-carousel-wrap">
-                                <div class="sec-2-carousel-container">
-                                    <div class="owl-carousel sec-2-carousel sec-2-carousel-tab-5">
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                        <div class="sec-2-carousel-item">
-                                            <a href="images/sec1_bg-min.png">
-                                                <img src="images/sec1_bg-min.png" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-5">
-                                        <img src="images/arrow_left.png" alt="image">
-                                    </div>
-                                    <div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-5">
-                                        <img src="images/arrow_right.png" alt="image">
-                                    </div>
-                                </div>
-
-                                <div class="slide-count-wrap slide-count-wrap-tab-5 py-2"></div>
-
-                            </div>
-
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-5 sec-2-right-block">
                     <p class="sec-title">Выполненые работы</p>
+
                     <ul class="nav nav-pills d-flex flex-column pl-3" id="pills-tab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="pills-living-tab" data-toggle="pill" href="#pills-living" role="tab"
-                               aria-controls="pills-living" aria-selected="true">Для гостинной</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-bad-tab" data-toggle="pill" href="#pills-bad" role="tab"
-                               aria-controls="pills-bad" aria-selected="false">Для спальной</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-baby-tab" data-toggle="pill" href="#pills-baby" role="tab"
-                               aria-controls="pills-baby" aria-selected="false">Детская мебель</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-kitchen-tab" data-toggle="pill" href="#pills-kitchen" role="tab"
-                               aria-controls="pills-kitchen" aria-selected="false">Для кухни</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-horeca-tab" data-toggle="pill" href="#pills-horeca" role="tab"
-                               aria-controls="pills-horeca" aria-selected="false">HoReCa</a>
-                        </li>
+                        <?php $j = 0;?>
+                        <?php foreach ($jobs as $job): ?>
+                            <li class="nav-item">
+                                <a class="nav-link <?= ($j == 0) ? ' active' : ''?>" id="pills-tab-<?=$job->id?>" data-toggle="pill" href="#pills-<?=$job->id?>" role="tab"
+                                   aria-controls="pills-<?=$job->id?>" aria-selected="true"><?=$job->name?></a>
+                            </li>
+                            <?php $j++;?>
+                        <?php endforeach;?>
                     </ul>
                 </div>
             </div>
@@ -562,6 +153,7 @@
 
 
     </section>
+    <?php endif; ?>
     <section class="section-3">
         <div class="container">
             <div class="row">

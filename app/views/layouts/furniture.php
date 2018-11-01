@@ -22,20 +22,22 @@
 </head>
 <body>
 
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 
 <?= $content; ?>
 
 <script>
     var path = '<?=PATH;?>';
 </script>
-<script src="js/jquery-3.3.1.js"></script>
+
+
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mdb.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.fittext.js"></script>
 <script src="js/parallax.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jquery.waterwheelCarousel.js"></script>
 <script src="js/slick.min.js"></script>
