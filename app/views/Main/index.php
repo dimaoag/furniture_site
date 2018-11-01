@@ -893,7 +893,7 @@
                                             <!-- Card image -->
                                             <div class="view overlay">
                                                 <img class="card-img-top" src="<?=PATH?>/images/<?=$article->img?>" alt="<?=$article->img?>">
-                                                <a href="#!">
+                                                <a href="<?=PATH?>/article/view?id=<?=$article->id?>">
                                                     <div class="mask rgba-white-slight"></div>
                                                 </a>
                                             </div>
@@ -908,7 +908,6 @@
                                         <!-- Card -->
                                     </div>
                                 <?php endforeach; ?>
-
                             </div>
                             <div class="sec-2-carousel-arrow-left sec-6-arrow-left waves-effect">
                                 <img src="images/arrow_left.png" alt="image">

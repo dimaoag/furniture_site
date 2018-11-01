@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/nanogallery2.min.css">
     <link rel="stylesheet" href="css/nanogallery2.woff.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Furniture</title>
+    <?= $this->getMeta(); ?>
 </head>
 <body>
 
