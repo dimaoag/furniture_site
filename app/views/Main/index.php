@@ -15,7 +15,7 @@
                  aria-hidden="true" data-backdrop="false">
                 <div class="modal-dialog modal-full-height modal-right modal-notify bg_modal" role="document">
                     <div class="modal-content">
-                        <form action="#">
+                        <form action="#" id="send_comment">
                             <!--Header-->
                             <div class="modal-header bg_modal">
                                 <p class="heading lead">Связатся с нами</p>
@@ -60,10 +60,10 @@
                                 </div>
 
                             </div>
-
+                            <span class="open-success" data-toggle="modal" data-target="#centralModalSuccess"></span>
                             <!--Footer-->
                             <div class="modal-footer justify-content-center">
-                                <button type="submit" class="btn waves-effect waves-light modal-btn-bg" data-toggle="modal" data-target="#centralModalSuccess">Отправить
+                                <button type="submit" class="btn waves-effect waves-light modal-btn-bg">Отправить
                                     <i class="fa fa-paper-plane ml-1"></i>
                                 </button>
                                 <button type="button" class="btn waves-effect bg_modal" data-dismiss="modal">Отмена</button>
@@ -307,19 +307,21 @@
                 </div>
                 <div class="col-lg-4 py-2 form-one">
                     <div class="form-wrap">
-                        <div class="form-title">
-                            <p>Записаться на замер</p>
-                        </div>
-                        <div class="form-text">заполните форму и мы перезвоним Вам для уточнее даты и времени</div>
-                        <div class="form-group">
-                            <input type="text" class="form-input" name="name" placeholder="Имя" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" data-mask="callback-catalog-phone" class="form-input" name="phone" placeholder="Телефон" required>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn btn-block button" data-toggle="modal" data-target="#centralModalSuccess">Записаться на замер</button>
-                        </div>
+                        <form action="#" id="send_order">
+                            <div class="form-title">
+                                <p>Записаться на замер</p>
+                            </div>
+                            <div class="form-text">заполните форму и мы перезвоним Вам для уточнее даты и времени</div>
+                            <div class="form-group">
+                                <input type="text" class="form-input" name="name" placeholder="Имя" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" data-mask="callback-catalog-phone" class="form-input" name="phone" placeholder="Телефон" required>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-block button" type="submit">Записаться на замер</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -384,30 +386,10 @@
                             <div class="sec-3-left-block">
                                 <div class="review-username-wrap d-flex align-items-center pb-3">
                                     <i class="fa fa-instagram mr-3"></i>
-                                    <p class="review-username">Пономарев Денис</p>
-                                </div>
-                                <div class="review-text">
-                                    Заказал диван около полугода назад. Спасибо специалистам которые посоветовали обивку – скотгарда. Всем рекомендую данный материал, так как диван становиться устойчивым к жиру, пыли и грязи.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="sec-3-right-block sec-5-image-block">
-                                <div class="sec-3-image-wrap">
-                                    <img src="images/sec1_bg-min.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 d-flex align-items-center">
-                            <div class="sec-3-left-block">
-                                <div class="review-username-wrap d-flex align-items-center pb-3">
-                                    <i class="fa fa-instagram mr-3"></i>
                                     <p class="review-username">Бахур Александр</p>
                                 </div>
                                 <div class="review-text">
-                                    Раньше покупал диваны итальянского производства. Мне казалось что мебель более высоко качество приобрести просто невозможно, но когда я услышал про ........ любопытство взяло вверх, и я оформил заказ диванна в гостиную. Качество сборки ни чем не уступает тем же прославленным итальянцам. Вдобавок диван был собран с учетом всех моих пожеланий. вообщем рекомендую!!
+                                    Раньше покупал диваны в гипермаркете "ШОК". Мне казалось что мебель более высоко качество приобрести просто невозможно, но когда я услышал про ........ любопытство взяло вверх, и я оформил заказ диванна в гостиную. Качество сборки ни чем не уступает тем же прославленным итальянцам. Вдобавок диван был собран с учетом всех моих пожеланий. вообщем рекомендую!!
                                 </div>
                             </div>
                         </div>

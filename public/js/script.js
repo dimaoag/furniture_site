@@ -107,6 +107,48 @@ $(".sec-6-arrow-left").click(function () {
 });
 
 
+$( "#send_comment" ).submit(function( event ) {
+    // Stop form from submitting normally
+    event.preventDefault();
+    // Get some values from elements on the page:
+    var $form = $(this),
+        phone = $form.find( "input[name='phone']" ).val(),
+        comment = $form.find( "textarea[name='comment']" ).val();
+
+    $.ajax({
+        url: path + '/main/send-comment',
+        data: {phone: phone, comment: comment},
+        type: 'post',
+        success: function (res) {
+            $('#send_comment')[0].reset();
+            $('#send_comment button.close').trigger('click');
+            $('.open-success').trigger('click');
+        }
+    });
+});
+
+
+
+$( "#send_order" ).submit(function( event ) {
+    // Stop form from submitting normally
+    event.preventDefault();
+    // Get some values from elements on the page:
+    var $form = $(this),
+        phone = $form.find( "input[name='phone']" ).val(),
+        name = $form.find( "input[name='name']" ).val();
+
+    $.ajax({
+        url: path + '/main/send-order',
+        data: {phone: phone, name: name},
+        type: 'post',
+        success: function (res) {
+            $('#send_order')[0].reset();
+            $('.open-success').trigger('click');
+        }
+    });
+});
+
+
 
 //
 // // ----------tab 1--------------//
