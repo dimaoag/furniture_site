@@ -391,7 +391,7 @@ body {
     min-height: 100%;
     background-color: #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 0!important;
 }
 
 a, a:visited { /* порядок правил для ссылок имеет значение */
@@ -987,6 +987,9 @@ a.footer-value{
     }
     .slide-count-wrap{
         display: none;
+    }
+    .sec-2-left-block{
+        margin-top: 20px;
     }
     /*---------section-3-----------*/
     .sec-3-right-block{

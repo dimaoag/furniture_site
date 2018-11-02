@@ -15,58 +15,60 @@
                  aria-hidden="true" data-backdrop="false">
                 <div class="modal-dialog modal-full-height modal-right modal-notify bg_modal" role="document">
                     <div class="modal-content">
-                        <!--Header-->
-                        <div class="modal-header bg_modal">
-                            <p class="heading lead">Связатся с нами</p>
+                        <form action="#">
+                            <!--Header-->
+                            <div class="modal-header bg_modal">
+                                <p class="heading lead">Связатся с нами</p>
 
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true" class="white-text">×</span>
-                            </button>
-                        </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text">×</span>
+                                </button>
+                            </div>
 
-                        <!--Body-->
-                        <div class="modal-body">
-                            <div class="text-center sec-1-modal-hide">
-                                <i class="fa fa-file-text-o fa-4x mb-3 animated rotateIn"></i>
-                                <p>
-                                    <b class="modal-my-title py-3">Остались вопросы?</b>
+                            <!--Body-->
+                            <div class="modal-body">
+                                <div class="text-center sec-1-modal-hide">
+                                    <i class="fa fa-file-text-o fa-4x mb-3 animated rotateIn"></i>
+                                    <p>
+                                        <b class="modal-my-title py-3">Остались вопросы?</b>
+                                    </p>
+                                    <p class="pt-2">
+                                        Наш специалист свяжеться с Вами и проконсультирует по всем вопросам.
+                                    </p>
+                                </div>
+                                <hr class="sec-1-modal-hide">
+
+                                <p class="text-center sec-1-modal-hide">
+                                    <strong>Напишите нам</strong>
                                 </p>
-                                <p class="pt-2">
-                                    Наш специалист свяжеться с Вами и проконсультирует по всем вопросам.
-                                </p>
-                            </div>
-                            <hr class="sec-1-modal-hide">
+                                <!--Basic textarea-->
+                                <div class="md-form">
+                                    <input type="text" data-mask="callback-catalog-phone" name="phone" id="modal-phone" class="form-control" required>
+                                    <label for="modal-phone">Телефон</label>
+                                </div>
 
-                            <p class="text-center sec-1-modal-hide">
-                                <strong>Напишите нам</strong>
-                            </p>
-                            <!--Basic textarea-->
-                            <div class="md-form">
-                                <input type="text" id="modal-phone" class="form-control" required>
-                                <label for="modal-phone">Телефон</label>
-                            </div>
+                                <div class="md-form">
+                                    <textarea type="text" name="comment" id="form7textarea" class="md-textarea form-control" rows="1"></textarea>
+                                    <label for="form7textarea">Комментарий</label>
+                                </div>
 
-                            <div class="md-form">
-                                <textarea type="text" id="form7textarea" class="md-textarea form-control" rows="1"></textarea>
-                                <label for="form7textarea">Комментарий</label>
-                            </div>
+                                <div class="md-form modal-phones mt-5">
+                                    <a href="tel:0979746887" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
+                                </div>
+                                <div class="md-form modal-phones">
+                                    <a href="tel:0979746887" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
+                                </div>
 
-                            <div class="md-form modal-phones mt-5">
-                                <a href="tel:0979746887" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
-                            </div>
-                            <div class="md-form modal-phones">
-                                <a href="tel:0979746887" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
                             </div>
 
-                        </div>
-
-                        <!--Footer-->
-                        <div class="modal-footer justify-content-center">
-                            <button type="button" class="btn waves-effect waves-light modal-btn-bg" data-toggle="modal" data-target="#centralModalSuccess">Отправить
-                                <i class="fa fa-paper-plane ml-1"></i>
-                            </button>
-                            <button type="button" class="btn waves-effect bg_modal" data-dismiss="modal">Отмена</button>
-                        </div>
+                            <!--Footer-->
+                            <div class="modal-footer justify-content-center">
+                                <button type="submit" class="btn waves-effect waves-light modal-btn-bg" data-toggle="modal" data-target="#centralModalSuccess">Отправить
+                                    <i class="fa fa-paper-plane ml-1"></i>
+                                </button>
+                                <button type="button" class="btn waves-effect bg_modal" data-dismiss="modal">Отмена</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -84,6 +86,7 @@
             </div>
         </div>
     </section>
+
     <?php if (!empty($jobs)): ?>
         <section class="section-2">
         <div class="container">
@@ -100,36 +103,34 @@
                                 <div class="sec-2-carousel-wrap">
                                     <div class="sec-2-carousel-container">
 
-                                        <div class="owl-carousel sec-2-carousel sec-2-carousel-tab-<?=$job->id?>">
-                                            <?php foreach ($galleries as $gallery): ?>
-                                                <?php if ($job->id == $gallery->job_id): ?>
-                                                    <div class="sec-2-carousel-item">
-                                                        <a href="images/<?=$gallery->img?>">
-                                                            <img src="images/<?=$gallery->img?>" alt="<?=$gallery->img?>">
-                                                        </a>
-                                                    </div>
-                                                <?php endif; ?>
-                                            <?php endforeach;?>
-
+                                        <div class="carousel slide sec-2-carousel" data-ride="carousel" data-interval="5000" id="carouselExampleControls<?=$job->id?>">
+                                            <div class="carousel-inner">
+                                                <?php $k = 0; ?>
+                                                <?php foreach ($galleries as $gallery): ?>
+                                                    <?php if ($job->id == $gallery->job_id): ?>
+                                                        <div class="carousel-item <?= ($k == 0) ? ' active' : ''?> sec-2-carousel-item">
+                                                            <a href="images/<?=$gallery->img?>">
+                                                                <img src="images/<?=$gallery->img?>" alt="<?=$gallery->img?>">
+                                                            </a>
+                                                        </div>
+                                                        <?php $k++; ?>
+                                                    <?php endif; ?>
+                                                <?php endforeach;?>
+                                            </div>
                                         </div>
-
-                                        <div class="sec-2-carousel-arrow-left sec-2-carousel-arrow-left-tab-<?=$job->id?> waves-effect">
+                                        <div class="sec-2-carousel-arrow-left waves-effect" href="#carouselExampleControls<?=$job->id?>" role="button" data-slide="prev">
                                             <img src="images/arrow_left.png" alt="image">
                                         </div>
-                                        <div class="sec-2-carousel-arrow-right sec-2-carousel-arrow-right-tab-<?=$job->id?> waves-effect">
+                                        <div class="sec-2-carousel-arrow-right waves-effect" href="#carouselExampleControls<?=$job->id?>" role="button" data-slide="next">
                                             <img src="images/arrow_right.png" alt="image">
                                         </div>
                                     </div>
-
-                                    <div class="slide-count-wrap slide-count-wrap-tab-<?=$job->id?> py-2"></div>
-
                                 </div>
 
                             </div>
 
                             <?php $i++;?>
                         <?php endforeach;?>
-
 
                     </div>
                 </div>
@@ -151,31 +152,6 @@
 
         </div>
     </section>
-    <?php foreach ($jobs as $job): ?>
-        <script>
-            $('.sec-2-carousel-tab-<?=$job->id?>').on('initialized.owl.carousel changed.owl.carousel', function(e) {
-                if (!e.namespace)  {
-                    return;
-                }
-                var carousel<?=$job->id?> = e.relatedTarget;
-                $('.slide-count-wrap-tab-<?=$job->id?>').html(carousel<?=$job->id?>.relative(carousel<?=$job->id?>.current()) + 1 + '/' + '<span>'+ carousel<?=$job->id?>.items().length) + '</span>';
-            }).owlCarousel({
-                center: true,
-                items:1,
-                dots: false,
-                loop:true,
-            });
-
-            owl<?=$job->id?> = $('.sec-2-carousel-tab-<?=$job->id?>').owlCarousel();
-            $(".sec-2-carousel-arrow-right-tab-<?=$job->id?>").click(function () {
-                owl<?=$job->id?>.trigger('next.owl.carousel');
-            });
-            $(".sec-2-carousel-arrow-left-tab-<?=$job->id?>").click(function () {
-                owl<?=$job->id?>.trigger('prev.owl.carousel');
-            });
-        </script>
-    <?php endforeach;?>
-
     <?php endif; ?>
     <section class="section-3">
         <div class="container">
