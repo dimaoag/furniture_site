@@ -150,9 +150,32 @@
             </div>
 
         </div>
-
-
     </section>
+    <?php foreach ($jobs as $job): ?>
+        <script>
+            $('.sec-2-carousel-tab-<?=$job->id?>').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+                if (!e.namespace)  {
+                    return;
+                }
+                var carousel<?=$job->id?> = e.relatedTarget;
+                $('.slide-count-wrap-tab-<?=$job->id?>').html(carousel<?=$job->id?>.relative(carousel<?=$job->id?>.current()) + 1 + '/' + '<span>'+ carousel<?=$job->id?>.items().length) + '</span>';
+            }).owlCarousel({
+                center: true,
+                items:1,
+                dots: false,
+                loop:true,
+            });
+
+            owl<?=$job->id?> = $('.sec-2-carousel-tab-<?=$job->id?>').owlCarousel();
+            $(".sec-2-carousel-arrow-right-tab-<?=$job->id?>").click(function () {
+                owl<?=$job->id?>.trigger('next.owl.carousel');
+            });
+            $(".sec-2-carousel-arrow-left-tab-<?=$job->id?>").click(function () {
+                owl<?=$job->id?>.trigger('prev.owl.carousel');
+            });
+        </script>
+    <?php endforeach;?>
+
     <?php endif; ?>
     <section class="section-3">
         <div class="container">
