@@ -571,7 +571,7 @@
                                 <a href="viber://chat?number=+380508511283">
                                     <img src="images/viber.png" alt="">
                                 </a>
-                                <a href="tg://resolve?number=+380686629056">
+                                <a href="tg://resolve?number=+380508511283">
                                     <img src="images/telegram.png" alt="">
                                 </a>
                             </div>
