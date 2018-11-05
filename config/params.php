@@ -1,7 +1,7 @@
 <?php
 return [
-//    'admin_email' => 'elisoft.meb@gmail.com',
-    'admin_email' => 'dimaoag@gmail.com',
+    'admin_email' => 'elisoft.meb@gmail.com',
+//    'admin_email' => 'dimaoag@gmail.com',
     'shop_name' => 'ELISOFT',
     'pagination' => 6,
     'article_width' => 1920,
