@@ -53,10 +53,7 @@
                                 </div>
 
                                 <div class="md-form modal-phones mt-5">
-                                    <a href="tel:0979746887" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
-                                </div>
-                                <div class="md-form modal-phones">
-                                    <a href="tel:0979746887" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
+                                    <a href="tel:0674317799" class="text-dark"><i class="fa fa-phone"></i> +380-067-43-17-799</a>
                                 </div>
 
                             </div>
@@ -79,8 +76,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sec-1-center-text">
-                        <p class="first-line">Мы создаем</p>
-                        <p class="second-line">ваш комфорт</p>
+                        <p class="first-line">Создаем эксклюзивною мягкую мебель</p>
+                        <p class="second-line"></p>
                     </div>
                 </div>
             </div>
@@ -278,10 +275,10 @@
 
                 <div class="arrows-two arrows-sec-3">
                     <div class="arrow-left sec-3-arrow-left">
-                        <svg class="arrow-left-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41"><defs><path id="l879a" d="M969 2361v-41h41v41z"/></defs><g><g transform="translate(-969 -2320)"><use fill="#fff" xlink:href="#l879a"/></g><g transform="translate(-969 -2320)"><image width="13" height="23" transform="translate(980 2329)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAXCAYAAADQpsWBAAABV0lEQVQ4T5XTvUvDUBQF8HNj80cIdnfv8O4TBHVw6mgRP3BxURCcRAc3Bx1F0MlJxSWjgqNDJFAhuEgGoYi0m1M7COYZIy/YkLb56tt/Oe/enEcY40gp9wBUqKxh5hMC9gE8lEJ9QMDTt1L1IkSS+QzATgg8KqXqrut+5SENLgBsJYEeJwtlgixkSOZznQDg3ldqWV8pubCBpEajMdFpt68ArAK46/Z6S57n+cMbjlFZEF9vHNBHhhTiBkQrAG6nqtUNy7KCvJ9Os7Xa5I9pdgD4ZBjTjuN8FLUkmomZ1wjQC3j/DcO5ZrOpP5J54kXMCLEeEl0DaBXBgZUz8zYBugWtimlK27Y/0+JGGpGArxXTXEiDqTUqgpmFlULsgugUwEhi7tOQQhyA6BjAi6/UvOu63byWx/Mn4LOv1KKGRY8wwsOwFPovwBEBhwRclkZRopSbRhC8/QFV/qoUtQiJrgAAAABJRU5ErkJggg=="/></g></g></svg>
+                        <p class="w-100 h-100 d-flex justify-content-center align-items-center"><i class="arrow arr-left"></i></p>
                     </div>
                     <div class="arrow-right sec-3-arrow-right">
-                        <svg class="arrow-right-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41"><defs><path id="7zzba" d="M1011 2361v-41h41v41z"/></defs><g><g transform="translate(-1011 -2320)"><use fill="#fff" xlink:href="#7zzba"/></g><g transform="translate(-1011 -2320)"><image width="13" height="23" transform="translate(1025 2329)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAXCAYAAADQpsWBAAABX0lEQVQ4T5XUMUjDQBQG4P8PbR3EdimC6KIUh4KLhd5lqw4Fq2M3oYObu4Obbg7uLm6iIC4FB8ciFJukkE1xUVxEB106aiAnV2xJY5vEG+/ex3s8fo6lUimdSaWaBC47jnOOBIfFYjGTy2YfACwpoGHb9kWcoy4QQiwY5C2AxSSwjwaQZIfAfBwcIg1N0yxAKd1xDmTdsqzmuFFHUAjOKqBu2/Z1GP5BSeBYpGG5XF42DOOOQC7ccSL67biilGoRmKHv1zrdbkvfR6IQnKbvb2kYi8JQAbVESEMp5QGBQwXcJEJSym0CZwDeQVZiUQC8gVyzLOspentC7IA8BfDiK1VxHOc1cntSyl0CJwCeg2AiigJjUQA8+kpVByMF8zeaciH2QB4DuE+l0+vtdvsjMuWmEPsgj+LAcLz/gD6SUq4ScAF0vz1v03Xdz9g/YqNQmOrl840vz7tyXbcXB/T7D4PmoixsAiMRAAAAAElFTkSuQmCC"/></g></g></svg>
+                        <p class="w-100 h-100 d-flex justify-content-center align-items-center"><i class="arrow arr-right"></i></p>
                     </div>
                 </div>
             </div>
@@ -378,18 +375,18 @@
                         <div class="col-lg-6">
                             <div class="sec-3-right-block sec-5-image-block">
                                 <div class="sec-3-image-wrap">
-                                    <img src="images/sec1_bg-min.png" alt="image">
+                                    <img src="images/Бахур_Александр-min.jpg" alt="image">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex align-items-center">
                             <div class="sec-3-left-block">
                                 <div class="review-username-wrap d-flex align-items-center pb-3">
-                                    <i class="fa fa-instagram mr-3"></i>
+                                    <i class="fa fa-facebook-square mr-3"></i>
                                     <p class="review-username">Бахур Александр</p>
                                 </div>
                                 <div class="review-text">
-                                    Раньше покупал диваны в гипермаркете "ШОК". Мне казалось что мебель более высоко качество приобрести просто невозможно, но когда я услышал про ........ любопытство взяло вверх, и я оформил заказ диванна в гостиную. Качество сборки ни чем не уступает тем же прославленным итальянцам. Вдобавок диван был собран с учетом всех моих пожеланий. вообщем рекомендую!!
+                                    Раньше покупал диваны в гипермаркете "ШОК". Мне казалось что мебель более высоко качество приобрести просто невозможно, но когда я услышал про ELISOFT любопытство взяло вверх, и я оформил заказ диванна в гостиную. Вдобавок диван был собран с учетом всех моих пожеланий. Вообщем рекомендую!!
                                 </div>
                             </div>
                         </div>
@@ -398,15 +395,15 @@
                         <div class="col-lg-6">
                             <div class="sec-3-right-block sec-5-image-block">
                                 <div class="sec-3-image-wrap">
-                                    <img src="images/sec1_bg-min.png" alt="image">
+                                    <img src="images/Роман_Крепкий-min.jpg" alt="image">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex align-items-center">
                             <div class="sec-3-left-block">
                                 <div class="review-username-wrap d-flex align-items-center pb-3">
-                                    <i class="fa fa-instagram mr-3"></i>
-                                    <p class="review-username">Крепкий Роман</p>
+                                    <i class="fa fa-facebook-square mr-3"></i>
+                                    <p class="review-username">Крепкий Анатолий</p>
                                 </div>
                                 <div class="review-text">
                                     Нужен был небольшой диван в детскую. Задача усложнялось тем, что комната небольшая и далеко не каждый диван поместиться. Спасибо мастерам, без каких либо дополнительных платежей, измерили комнату и помогли подобрать очень удобный диван.
@@ -418,15 +415,17 @@
                         <div class="col-lg-6">
                             <div class="sec-3-right-block sec-5-image-block">
                                 <div class="sec-3-image-wrap">
-                                    <img src="images/sec1_bg-min.png" alt="image">
+                                    <img src="images/Людмила_романец-min.jpg" alt="image">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex align-items-center">
                             <div class="sec-3-left-block">
                                 <div class="review-username-wrap d-flex align-items-center pb-3">
-                                    <i class="fa fa-instagram mr-3"></i>
-                                    <p class="review-username">Романец Людмила</p>
+                                    <i class="fa fa-facebook-square mr-3"></i>
+                                    <a href="https://www.facebook.com/profile.php?id=100004326224498&fref=pb&hc_location=friends_tab">
+                                        <p class="review-username text-dark">Таня Вакулич</p>
+                                    </a>
                                 </div>
                                 <div class="review-text">
                                     Спасибо за ортопедический диван. Честно скажу, никогда раньше на таком удобном диване не спала, словно лежишь на облачке =) Вам хочу пожелать счастья и профессиональных успехов
@@ -434,13 +433,57 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="sec-3-right-block sec-5-image-block">
+                                <div class="sec-3-image-wrap">
+                                    <img src="images/Ирина_Зимина-min.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div class="sec-3-left-block">
+                                <div class="review-username-wrap d-flex align-items-center pb-3">
+                                    <i class="fa fa-facebook-square mr-3"></i>
+                                    <a href="https://www.facebook.com/profile.php?id=100009767291579&fref=pb&hc_location=friends_tab">
+                                        <p class="review-username text-dark">Ирина Зимина</p>
+                                    </a>
+                                </div>
+                                <div class="review-text">
+                                    Замовляли диван для матусі. Все доставили вказаний термін, все дуже акуратно і швидко зібрали. Диван дуже гарний, якісно виготовлений, дуже зручний. Я задоволена якістю і сервісом. Дякую що Ви є!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="sec-3-right-block sec-5-image-block">
+                                <div class="sec-3-image-wrap">
+                                    <img src="images/Наталья-min.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div class="sec-3-left-block">
+                                <div class="review-username-wrap d-flex align-items-center pb-3">
+                                    <i class="fa fa-facebook-square mr-3"></i>
+                                    <a href="https://www.facebook.com/shaurman.vinnytsya/">
+                                        <p class="review-username text-dark">Наталья</p>
+                                    </a>
+                                </div>
+                                <div class="review-text">
+                                    Заказали диванчики для нашего кафе, спасибо ребятам, помогли с выбором дизайна и цвета и материала. А самое главное сделали очень полезные ящички, так как места маловато :) Спасибо большое, будем обращатся ещё ;)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="arrows-two arrows-sec-5">
                     <div class="arrow-left sec-5-arrow-left">
-                        <svg class="arrow-left-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41"><defs><path id="l879a" d="M969 2361v-41h41v41z"/></defs><g><g transform="translate(-969 -2320)"><use fill="#fff" xlink:href="#l879a"/></g><g transform="translate(-969 -2320)"><image width="13" height="23" transform="translate(980 2329)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAXCAYAAADQpsWBAAABV0lEQVQ4T5XTvUvDUBQF8HNj80cIdnfv8O4TBHVw6mgRP3BxURCcRAc3Bx1F0MlJxSWjgqNDJFAhuEgGoYi0m1M7COYZIy/YkLb56tt/Oe/enEcY40gp9wBUqKxh5hMC9gE8lEJ9QMDTt1L1IkSS+QzATgg8KqXqrut+5SENLgBsJYEeJwtlgixkSOZznQDg3ldqWV8pubCBpEajMdFpt68ArAK46/Z6S57n+cMbjlFZEF9vHNBHhhTiBkQrAG6nqtUNy7KCvJ9Os7Xa5I9pdgD4ZBjTjuN8FLUkmomZ1wjQC3j/DcO5ZrOpP5J54kXMCLEeEl0DaBXBgZUz8zYBugWtimlK27Y/0+JGGpGArxXTXEiDqTUqgpmFlULsgugUwEhi7tOQQhyA6BjAi6/UvOu63byWx/Mn4LOv1KKGRY8wwsOwFPovwBEBhwRclkZRopSbRhC8/QFV/qoUtQiJrgAAAABJRU5ErkJggg=="/></g></g></svg>
+                        <p class="w-100 h-100 d-flex justify-content-center align-items-center"><i class="arrow arr-left"></i></p>
                     </div>
                     <div class="arrow-right sec-5-arrow-right">
-                        <svg class="arrow-right-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41"><defs><path id="7zzba" d="M1011 2361v-41h41v41z"/></defs><g><g transform="translate(-1011 -2320)"><use fill="#fff" xlink:href="#7zzba"/></g><g transform="translate(-1011 -2320)"><image width="13" height="23" transform="translate(1025 2329)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAXCAYAAADQpsWBAAABX0lEQVQ4T5XUMUjDQBQG4P8PbR3EdimC6KIUh4KLhd5lqw4Fq2M3oYObu4Obbg7uLm6iIC4FB8ciFJukkE1xUVxEB106aiAnV2xJY5vEG+/ex3s8fo6lUimdSaWaBC47jnOOBIfFYjGTy2YfACwpoGHb9kWcoy4QQiwY5C2AxSSwjwaQZIfAfBwcIg1N0yxAKd1xDmTdsqzmuFFHUAjOKqBu2/Z1GP5BSeBYpGG5XF42DOOOQC7ccSL67biilGoRmKHv1zrdbkvfR6IQnKbvb2kYi8JQAbVESEMp5QGBQwXcJEJSym0CZwDeQVZiUQC8gVyzLOspentC7IA8BfDiK1VxHOc1cntSyl0CJwCeg2AiigJjUQA8+kpVByMF8zeaciH2QB4DuE+l0+vtdvsjMuWmEPsgj+LAcLz/gD6SUq4ScAF0vz1v03Xdz9g/YqNQmOrl840vz7tyXbcXB/T7D4PmoixsAiMRAAAAAElFTkSuQmCC"/></g></g></svg>
+                        <p class="w-100 h-100 d-flex justify-content-center align-items-center"><i class="arrow arr-right"></i></p>
                     </div>
                 </div>
             </div>
@@ -508,7 +551,7 @@
                     <div class="footer-wrap">
                         <div class="footer-block">
                             <p class="footer-name">Наш телефон</p>
-                            <a href="tel:0686629056" class="footer-value d-block">+38 068 662 90 56</a>
+                            <a href="tel:0674317799" class="footer-value d-block">+380 067 43 17 799</a>
                         </div>
                         <div class="footer-block">
                             <p class="footer-name">Наша почта</p>

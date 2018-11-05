@@ -536,7 +536,7 @@ header{
 .sec-1-center-text{
     color: #ffffff;
     font-family: "Lato-Black", sans-serif;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
     /* Text style for "Мы создаем" */
@@ -548,7 +548,7 @@ header{
     margin: 10% 0;
 }
 .second-line{
-    padding-left: 10%;
+    /*padding-left: 10%;*/
 }
 
 
@@ -675,6 +675,21 @@ header{
     text-align: center;
     padding: 15px 0;
 }
+.step-text-1{
+    width: 140px;
+}
+.step-text-2{
+    width: 70px;
+}
+.step-text-3{
+    width: 270px;
+}
+.step-text-4{
+    width: 140px;
+}
+.step-text-5{
+    width: 215px;
+}
 .sec-3-left-title-wrap{
     padding: 15px 0;
 }
@@ -684,7 +699,6 @@ header{
     line-height: 24.01px;
     letter-spacing: 0.72px;
     border-bottom: 2px solid #e18320;
-    width: 100px;
 }
 .sec-3-text{
     color: #000000;
@@ -706,7 +720,39 @@ header{
 }
 .arrows-two div{
     height: 41px;
+    width: 41px;
     cursor: pointer;
+    background-color: white;
+    position: relative;
+}
+.arrows-two div:hover{
+    background-color: black;
+}
+.arrow-left:hover  .arr-left, .arrow-right:hover .arr-right{
+    border-right: solid white;
+    border-bottom: solid white;
+}
+.arrows-two .arr-left{
+    margin-left: 10px;
+}
+.arrows-two .arr-right{
+    margin-right: 10px;
+}
+.arrows-two i {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.arr-right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arr-left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
 }
 .arrow-right{
     margin-left: 2px;
@@ -818,10 +864,11 @@ header{
 }
 .review-username-wrap i{
     padding: 1px;
-    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #3B5998;
+    /*background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);*/
+    /*background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
 }
 .review-text{
     padding-left: 15px;
