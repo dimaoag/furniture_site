@@ -3,9 +3,22 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <a href="<?=PATH?>" class="py-3 d-flex align-items-center article-back">
-                <i class="fa fa-arrow-left mr-1"></i>
-                <h3 class="">назад</h3>
+<!--            <a href="--><?php //=PATH ?><!--" class="py-3 d-flex align-items-center article-back">-->
+<!--                <i class="fa fa-arrow-left mr-1"></i>-->
+<!--                <h3 class="">назад</h3>-->
+<!--            </a>-->
+            <a class='animated-arrow my-4 text-dark' href="<?=PATH?>">
+                <span class='the-arrow -left'>
+                  <span class='shaft'></span>
+                </span>
+                <span class='main'>
+                    <span class='text'>
+                        назад
+                    </span>
+                    <span class='the-arrow -right'>
+                        <span class='shaft'></span>
+                    </span>
+                </span>
             </a>
         </div>
     </div>

@@ -13,7 +13,7 @@ class MainController extends AppController
         $galleries = \R::findAll('gallery');
 
 
-        $this->setMeta('Furniture');
+        $this->setMeta('Elisoft');
         $this->setData(compact('articles', 'jobs', 'galleries'));
     }
 
