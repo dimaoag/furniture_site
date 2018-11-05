@@ -2,7 +2,7 @@
     <section class="section-1">
         <header>
             <div class="logo">
-                <a href="#">
+                <a href="/">
                     <img src="images/logo.png" alt="logo">
                 </a>
             </div>
@@ -171,7 +171,7 @@
                                     </div>
                                 </div>
                                 <div class="sec-3-text">
-                                    Мы поможем создать уникальный диван с учетом всех ваших пожеланий, а так же физиологических особенностей таких к примеру как высокий рост, для максимального удобства и долговечности.
+                                    Создадим комфортную мебель с учетом всех ваших пожеланий: для необычного интерьера, любого размера или формы, с уникальным дизайном. Поможем воплотить вашу идею в реальность.
                                 </div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                                     </div>
                                 </div>
                                 <div class="sec-3-text">
-                                    Для того что бы понять максимально допустимый размер дивана, наши специалисты совершенно бесплатно проведут замер дверных проемов и лестничных площадок. Теперь мы можем переходить к выбору обивочного материала. Мы расскажем про все плюсы и минусы каждого материала, и вместе определим наилучший вариант.
+                                    Проводим замер и определяемся с видом материалов. Проводим бесплатный замер комнаты, а также дверных проемов и лестничных площадок, для того что бы подобрать оптимальный размер мебели. Вместе определим наилучший вариант обивочного материала, его плюсы и минусы, исходя из предназначения мебели.
                                 </div>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
                                     </div>
                                 </div>
                                 <div class="sec-3-text">
-                                    Заключительный этап создания дивана. На готовое изделие устанавливаться ножки, после чего он отправляется к владельцу.
+                                    На заключительном этапе, мы отправляем готовую мебель владельцу. Мастер бесплатно собирает и устанавливает вашу мебель.
                                 </div>
                             </div>
                         </div>
@@ -547,7 +547,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 d-flex align-items-center">
                     <div class="footer-wrap">
                         <div class="footer-block">
                             <p class="footer-name">Наш телефон</p>
@@ -559,7 +559,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 d-flex align-items-center">
                     <div class="footer-wrap">
                         <div class="footer-block">
                             <p class="footer-name">Время работы</p>
@@ -579,7 +579,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 footer-black-block-wrap d-flex justify-content-center">
-                    <div class="footer-black-block d-flex flex-column align-items-center justify-content-around text-center">
+                    <div class="footer-black-block d-flex flex-column align-items-center justify-content-around text-center py-3">
                         <p class="footer-black-block-title">Остались вопросы?</p>
                         <p class="footer-black-block-text">Наш специалист свяжеться с Вами и проконсультирует по всем вопросам</p>
                         <button class="btn button" data-toggle="modal" data-target="#modalPoll">Заказать звонок</button>

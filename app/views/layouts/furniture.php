@@ -20,6 +20,17 @@
     <link rel="stylesheet" href="css/nanogallery2.woff.min.css">
     <link rel="stylesheet" href="css/style.css">
     <?= $this->getMeta(); ?>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128667598-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-128667598-1');
+    </script>
 </head>
 <body>
 
