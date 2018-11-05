@@ -336,7 +336,7 @@
                     <div class="view overlay zoom">
                         <img src="images/sec4_3.png" alt="image" />
                         <div class="my-mask d-flex flex-column align-items-center justify-content-center bg_rgba">
-                            <p class="sec-4-image-title">Эксклюзивынй дизайн</p>
+                            <p class="sec-4-image-title">Эксклюзивный дизайн</p>
                             <p class="sec-4-image-title-2">под ваш интерьер</p>
                         </div>
                     </div>

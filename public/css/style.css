@@ -1213,7 +1213,11 @@ a.footer-value{
     .arrows-sec-5{
         top: 10px;
         left: 100%;
-        transform: translate(-94px, 0);
+        transform: translate(-75px, 0);
+    }
+    .arrows-sec-5 div{
+        width: 41px!important;
+        height: 41px!important;
     }
     .review-username-wrap{
         margin-top: 25px;

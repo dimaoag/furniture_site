@@ -36,6 +36,7 @@ $('.sec-3-slider').on('initialized.owl.carousel changed.owl.carousel', function(
     var sec_3_carousel = e.relatedTarget;
 }).owlCarousel({
     items:1,
+    autoHeight: true,
     dots: false,
     loop:true,
 });

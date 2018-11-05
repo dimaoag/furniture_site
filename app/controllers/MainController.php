@@ -12,8 +12,11 @@ class MainController extends AppController
         $jobs = \R::findAll('job', 'status = 1');
         $galleries = \R::findAll('gallery');
 
+        $title = 'Мягкая мебель на заказ в Виннице';
+        $description = 'Мебель с эксклюзивным дизайном под любой интерьер. Гарантия на всю продукцию, бесплатный замер и сборка мебели. Выполненные работы и расчет цены на сайте!';
+        $keywords = 'фабрика диванов диванов Винница, мебель Винница';
 
-        $this->setMeta('Elisoft');
+        $this->setMeta($title, $description, $keywords);
         $this->setData(compact('articles', 'jobs', 'galleries'));
     }
 
