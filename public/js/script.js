@@ -130,7 +130,7 @@ $( "#send_comment" ).submit(function( event ) {
 
 
 
-$( "#send_order" ).submit(function( event ) {
+$( "#send_order_1" ).submit(function( event ) {
     // Stop form from submitting normally
     event.preventDefault();
     // Get some values from elements on the page:
@@ -143,12 +143,31 @@ $( "#send_order" ).submit(function( event ) {
         data: {phone: phone, name: name},
         type: 'post',
         success: function (res) {
-            $('#send_order')[0].reset();
+            $('#send_order_1')[0].reset();
             $('.open-success').trigger('click');
         }
     });
 });
 
+
+$( "#send_order_2" ).submit(function( event ) {
+    // Stop form from submitting normally
+    event.preventDefault();
+    // Get some values from elements on the page:
+    var $form = $(this),
+        phone = $form.find( "input[name='phone']" ).val(),
+        name = $form.find( "input[name='name']" ).val();
+
+    $.ajax({
+        url: path + '/main/send-order',
+        data: {phone: phone, name: name},
+        type: 'post',
+        success: function (res) {
+            $('#send_order_2')[0].reset();
+            $('.open-success').trigger('click');
+        }
+    });
+});
 
 
 //

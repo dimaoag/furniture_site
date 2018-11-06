@@ -15,7 +15,7 @@
                  aria-hidden="true" data-backdrop="false">
                 <div class="modal-dialog modal-full-height modal-right modal-notify bg_modal" role="document">
                     <div class="modal-content">
-                        <form action="#" id="send_comment">
+                        <form action="#" id="send_comment" onsubmit="yaCounter51010976.reachGoal('Forma'); return true;">
                             <!--Header-->
                             <div class="modal-header bg_modal">
                                 <p class="heading lead">Связатся с нами</p>
@@ -304,7 +304,7 @@
                 </div>
                 <div class="col-lg-4 py-2 form-one">
                     <div class="form-wrap">
-                        <form action="#" id="send_order">
+                        <form action="#" id="send_order_1" onsubmit="yaCounter51010976.reachGoal('Zamer'); return true;">
                             <div class="form-title">
                                 <p>Записаться на замер</p>
                             </div>
@@ -343,19 +343,21 @@
                 </div>
                 <div class="col-lg-4 py-2 form-two">
                     <div class="form-wrap">
-                        <div class="form-title">
-                            <p>Записаться на замер</p>
-                        </div>
-                        <div class="form-text">заполните форму и мы перезвоним Вам для уточнее даты и времени</div>
-                        <div class="form-group">
-                            <input type="text" class="form-input" name="name" placeholder="Имя" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" data-mask="callback-catalog-phone" class="form-input" name="phone" placeholder="Телефон" required>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn btn-block button">Записаться на замер</button>
-                        </div>
+                        <form action="#" id="send_order_2" onsubmit="yaCounter51010976.reachGoal('Zamer'); return true;">
+                            <div class="form-title">
+                                <p>Записаться на замер</p>
+                            </div>
+                            <div class="form-text">заполните форму и мы перезвоним Вам для уточнее даты и времени</div>
+                            <div class="form-group">
+                                <input type="text" class="form-input" name="name" placeholder="Имя" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" data-mask="callback-catalog-phone" class="form-input" name="phone" placeholder="Телефон" required>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-block button">Записаться на замер</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
