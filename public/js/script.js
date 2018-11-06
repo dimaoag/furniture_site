@@ -3,8 +3,8 @@ new WOW().init();
 // $('.parallax-window').parallax({imageSrc: 'images/sec1_bg-min.png'});
 
 
-jQuery(".first-line").fitText(1.2, { minFontSize: '30px', maxFontSize: '65px' });
-jQuery(".second-line").fitText(1.2, { minFontSize: '30px', maxFontSize: '60px' });
+jQuery(".first-line").fitText(1.2, { minFontSize: '40px', maxFontSize: '72px' });
+jQuery(".second-line").fitText(1.2, { minFontSize: '40px', maxFontSize: '72px' });
 
 
 

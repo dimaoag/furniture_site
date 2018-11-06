@@ -52,8 +52,14 @@
                                     <label for="form7textarea">Комментарий</label>
                                 </div>
 
-                                <div class="md-form modal-phones mt-5">
-                                    <a href="tel:0674317799" class="text-dark"><i class="fa fa-phone"></i> +380-067-43-17-799</a>
+                                <div class="md-form modal-phones mt-2 mb-1">
+                                    <a href="tel:0686629056" class="text-dark"><i class="fa fa-phone"></i> +380 068 66 29 056</a>
+                                </div>
+                                <div class="md-form modal-phones mt-2 mb-1">
+                                    <a href="tel:0731607603" class="text-dark"><i class="fa fa-phone"></i> +380 073 16 07 603</a>
+                                </div>
+                                <div class="md-form modal-phones mt-2 mb-1">
+                                    <a href="tel:0508511283" class="text-dark"><i class="fa fa-phone"></i> +380 050 85 11 283</a>
                                 </div>
 
                             </div>
@@ -72,12 +78,12 @@
 
         </header>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+        <div class="container sec-1-center">
+            <div class="row h-100">
+                <div class="col-12 h-100">
                     <div class="sec-1-center-text">
-                        <p class="first-line">Создаем эксклюзивною мягкую мебель</p>
-                        <p class="second-line"></p>
+                        <p class="first-line">Мы создаем </p>
+                        <p class="second-line">Ваш комфорт</p>
                     </div>
                 </div>
             </div>
@@ -405,7 +411,7 @@
                             <div class="sec-3-left-block">
                                 <div class="review-username-wrap d-flex align-items-center pb-3">
                                     <i class="fa fa-facebook-square mr-3"></i>
-                                    <p class="review-username">Крепкий Анатолий</p>
+                                    <p class="review-username">Анатолий</p>
                                 </div>
                                 <div class="review-text">
                                     Нужен был небольшой диван в детскую. Задача усложнялось тем, что комната небольшая и далеко не каждый диван поместиться. Спасибо мастерам, без каких либо дополнительных платежей, измерили комнату и помогли подобрать очень удобный диван.
@@ -549,15 +555,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 d-flex align-items-center">
+                <div class="col-lg-4 d-flex align-items-center">
                     <div class="footer-wrap">
                         <div class="footer-block">
-                            <p class="footer-name">Наш телефон</p>
-                            <a href="tel:0674317799" class="footer-value d-block">+380 067 43 17 799</a>
-                        </div>
-                        <div class="footer-block">
-                            <p class="footer-name">Наша почта</p>
-                            <p class="footer-value">elisoft.meb@gmail.com</p>
+                            <p class="footer-name">Наши контакты</p>
+                            <a href="tel:0686629056" class="footer-value d-block"><i class="fa fa-phone mr-2"></i>+380 068 66 29 056</a>
+                            <a href="tel:0731607603" class="footer-value d-block"><i class="fa fa-phone mr-2"></i>+380 073 16 07 603</a>
+                            <a href="tel:0508511283" class="footer-value d-block"><i class="fa fa-phone mr-2"></i>+380 050 85 11 283</a>
+                            <a href="mailto:elisoft.meb@gmail.com" class="footer-value d-block"><i class="fa fa-envelope-o mr-2"></i>elisoft.meb@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -580,7 +585,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 footer-black-block-wrap d-flex justify-content-center">
+                <div class="col-lg-5 footer-black-block-wrap d-flex justify-content-center">
                     <div class="footer-black-block d-flex flex-column align-items-center justify-content-around text-center py-3">
                         <p class="footer-black-block-title">Остались вопросы?</p>
                         <p class="footer-black-block-text">Наш специалист свяжеться с Вами и проконсультирует по всем вопросам</p>

@@ -541,14 +541,25 @@ header{
     text-transform: uppercase;
     /* Text style for "Мы создаем" */
     letter-spacing: 4.32px;
-    min-height: 500px;
+    /*min-height: 500px;*/
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
-    margin: 10% 0;
+}
+.section-1{
+    position: relative;
+}
+.sec-1-center{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate( -50%, 0%);
 }
 .second-line{
-    /*padding-left: 10%;*/
+    padding-left: 10%;
 }
 
 
@@ -969,7 +980,7 @@ a.footer-value{
     bottom: 100px;
     right: 0;
     background-color: #292929;
-    width: 50%;
+    width: 44%;
     height: 300px;
 }
 .footer-icons{
