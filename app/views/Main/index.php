@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 sec-2-right-block">
-                    <p class="sec-title">Выполненые работы</p>
+                    <p class="sec-title">Выполненные работы</p>
 
                     <ul class="nav nav-pills d-flex flex-column pl-3" id="pills-tab" role="tablist">
                         <?php $j = 0;?>
@@ -578,7 +578,7 @@
                                 <a href="viber://chat?number=+380508511283">
                                     <img src="images/viber.png" alt="">
                                 </a>
-                                <a href="tg://resolve?number=+380508511283">
+                                <a href="tg://resolve?domain=EliS0ft">
                                     <img src="images/telegram.png" alt="">
                                 </a>
                             </div>

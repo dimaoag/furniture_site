@@ -1182,7 +1182,10 @@ a.footer-value{
 }
 @media all and (max-width: 991px){
     /*---------section-1-----------*/
-
+    .sec-1-center {
+        height: 75%;
+        margin-top: 25%;
+    }
     /*---------section-2-----------*/
     .sec-2-container{
         display: flex;
